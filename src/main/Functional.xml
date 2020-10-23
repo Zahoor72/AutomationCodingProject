@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon">
+<listeners>
+<listener class-name="CommonListeners.Listeners"></listener>
+</listeners>
+<test name="Function">
+<parameter name="browser" value="Chrome"></parameter>
+<classes>
+<class name="ProTrainingTech.Automation.Provider"> </class>
+
+<!-- <class name="ProTrainingTech.Automation.Amazon_6"> </class>  -->
+</classes>
+</test>
+<!-- <test name="Function6">
+<parameter name="browser" value="Firefox"></parameter>
+<classes>
+<class name="ProTrainingTech.Automation.Amazon"> </class>	
+
+<class name="ProTrainingTech.Automation.Amazon_6"> </class>
+</classes>
+</test> -->
+</suite>
